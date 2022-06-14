@@ -16,7 +16,10 @@ const business = {
   reviewCount: 90
 };
 
-const businesses = [business, business, business, business, business, business];
+const businesses = [];
+for (let i = 0; i < 6; i++) {
+  businesses.push(business);
+}
 
 class App extends React.Component {
   render() {
